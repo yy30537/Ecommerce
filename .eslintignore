@@ -1,0 +1,14 @@
+# 忽略配置文件
+*.config.js
+next.config.js
+postcss.config.js
+tailwind.config.js
+
+# 构建输出
+.next/
+out/
+build/
+dist/
+
+# 依赖
+node_modules/ 
