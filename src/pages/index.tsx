@@ -141,7 +141,8 @@ export default function Home({ featuredProducts, newArrivals, onSaleProducts }: 
           </div>
         </section>
 
-        {/* 产品轮播 - 三个板块统一结构 */}
+        {/* 产品轮播区域 - 三个板块使用相同的组件和调用方式 */}
+        
         {/* Bestsellers */}
         <ProductCarousel 
           title={SECTIONS.BESTSELLERS.title}
@@ -156,7 +157,7 @@ export default function Home({ featuredProducts, newArrivals, onSaleProducts }: 
           viewAllLink={SECTIONS.HOT_DEALS.viewAllLink}
         />
 
-        {/* New Arrivals - 移除了外层的section标签 */}
+        {/* New Arrivals */}
         <ProductCarousel 
           title={SECTIONS.NEW_ARRIVALS.title}
           products={newArrivals} 
